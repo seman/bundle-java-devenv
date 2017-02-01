@@ -1,0 +1,21 @@
+services:
+  devenv:
+    charm: "cs:xenial/ubuntu-devenv-3"
+    num_units: 1
+    annotations:
+      gui-x: "550"
+      gui-y: "400"
+    to:
+      - "0"
+  openjdk:
+    charm: "cs:xenial/openjdk-5"
+    annotations:
+      gui-x: "300"
+      gui-y: "400"
+series: xenial
+relations:
+  - ["openjdk:java", "devenv:java"]
+machines:
+  "0":
+    constraints: "mem=7G"
+    series: "xenial"

@@ -1,0 +1,14 @@
+bundle:
+  name: java-devenv
+  namespace: kwmonroe
+  release: true
+  to-channel: beta
+charm-upgrade:
+  openjdk:
+    from-channel: edge
+    release: true
+    to-channel: beta
+  ubuntu-devenv:
+    from-channel: edge
+    release: true
+    to-channel: beta
