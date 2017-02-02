@@ -1,6 +1,6 @@
 bundle:
   name: java-devenv
-  namespace: kwmonroe
+  namespace: kos.tsakalozos
   release: true
   to-channel: beta
 charm-upgrade:
