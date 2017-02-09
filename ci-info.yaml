@@ -6,9 +6,9 @@ bundle:
 charm-upgrade:
   openjdk:
     from-channel: edge
-    release: false
+    release: true
     to-channel: beta
   ubuntu-devenv:
     from-channel: edge
-    release: false
+    release: true
     to-channel: beta
