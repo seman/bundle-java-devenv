@@ -1,7 +1,7 @@
 bundle:
   name: java-devenv
-  namespace: kos.tsakalozos
-  release: true
+  namespace: sseman
+  release: false
   to-channel: beta
 charm-upgrade:
   openjdk:
@@ -10,5 +10,5 @@ charm-upgrade:
     to-channel: beta
   ubuntu-devenv:
     from-channel: edge
-    release: true
+    release: false
     to-channel: beta
